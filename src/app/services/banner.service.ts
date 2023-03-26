@@ -8,7 +8,7 @@ import { Banner } from '../models/banner';
   providedIn: 'root'
 })
 export class BannerService {
-  url ='http://localhost:8080/banner/';
+  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/banner/';
 
   constructor(private httpClient : HttpClient) { }
 

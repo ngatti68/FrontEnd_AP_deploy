@@ -10,7 +10,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 })
 export class EducacionService {
 
-  url ='http://localhost:8080/educacion/';
+  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

@@ -12,7 +12,7 @@ const cabecera = {headers: new HttpHeaders({'Content-Type': 'application/json'})
 })
 export class AuthService {
 
-  private authURL = 'http://localhost:8080/api/auth/';
+  private authURL = 'https://ngatti.backend.ap-ngatti68.koyeb.app:8000/api/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

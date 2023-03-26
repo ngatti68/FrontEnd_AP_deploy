@@ -10,7 +10,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 })
 
 export class PersonaService {
-    url='http://localhost:8080/personas/';
+    url='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/personas/';
 
     constructor(private http: HttpClient) { }
 
