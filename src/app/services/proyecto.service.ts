@@ -10,7 +10,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 })
 export class ProyectoService {
 
-  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/proyecto/';
+  url ='https://backendap-vu9e.onrender.com/proyecto/';
 
   constructor(private httpClient: HttpClient) { }
 

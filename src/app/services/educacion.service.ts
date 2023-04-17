@@ -10,7 +10,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 })
 export class EducacionService {
 
-  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/educacion/';
+  url ='https://backendap-vu9e.onrender.com/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

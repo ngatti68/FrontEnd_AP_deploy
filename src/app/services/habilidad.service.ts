@@ -10,7 +10,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 })
 export class HabilidadService {
 
-  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/habilidad/';
+  url ='https://backendap-vu9e.onrender.com/habilidad/';
 
   constructor(private httpClient: HttpClient) { }
 

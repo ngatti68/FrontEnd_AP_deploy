@@ -8,7 +8,7 @@ import { Banner } from '../models/banner';
   providedIn: 'root'
 })
 export class BannerService {
-  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/banner/';
+  url ='https://backendap-vu9e.onrender.com/banner/';
 
   constructor(private httpClient : HttpClient) { }
 

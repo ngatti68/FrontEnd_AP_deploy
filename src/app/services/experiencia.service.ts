@@ -11,7 +11,7 @@ const cabecera = {headers: new HttpHeaders({'Content-TYpe': 'application/json'})
 
 export class ExperienciaService {
 
-  url ='https://ngatti.backend.ap-ngatti68.koyeb.app:8000/experiencia/';
+  url ='https://backendap-vu9e.onrender.com/experiencia/';
 
   constructor(private httpClient: HttpClient) { }
 
